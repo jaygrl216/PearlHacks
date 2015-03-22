@@ -1,7 +1,6 @@
 
 .emphasized {
 	font-style: italic;
-	font-style: bold;
 }
 
 #box {
@@ -79,11 +78,10 @@ ul {
 }
 
 li {
-	list-style-type: disc;
+	list-style-type: none;
 }
 
 #text {
 	width: 80%;
 }
-
 
