@@ -16,15 +16,17 @@ function addTotals() {
 	else if(document.saver.category.value=="clothes"){
 		total2 = total2 + x;
 	}
+	else{
+		total3= total3 + x;
+	}
 
 }
 
 function submit() {
 	total= total1 + total2 + total3;
-    document.getElementById("data").innerHTML = "Spent on food: $" + total1 +"\nSpent on clothes: $" + total2 +
+    document.getElementById("data").innerHTML = "Spent on food: $" + total1 +"\nSpent on clothes: $" + total2 + "\nSpent on MakeUp: $" + total3+
     "\n your collective total is: $" + total;
 }
-
 function budget(){
 var budget = parseInt(document.saver.budget.value);
 document.getElementById("data").innerHTML = "This is your budget $" + budget;
