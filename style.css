@@ -24,6 +24,7 @@
 #appbox {
 	margin-left: auto;
     margin-right: auto;
+    width: 50%;
 }
 
 #page {
@@ -32,12 +33,16 @@
     width: 90%;
     background-color: #fff;
     border-style: groove;
+    border-width: 10px;
+    box-shadow: 10px 10px 10px  #888888;
+
 
 }
 
 form {
 	font-family: Rockwell;
 	font-size: 20px;
+
 }
 
 .header{
