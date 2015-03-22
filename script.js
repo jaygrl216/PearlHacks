@@ -13,11 +13,14 @@ function addTotals() {
 	if(document.saver.category.value == "food"){
 	total1 = total1 + x;
 	}
+	else if(document.saver.category.value=="clothes"){
+		total2 = total2 + x;
+	}
 
 }
 
 function submit() {
 	total= total1 + total2 + total3;
-    document.getElementById("data").innerHTML = "This is what you spent on food: $" + total1
-    + "\n your collective total is: $" + total;
+    document.getElementById("data").innerHTML = "Spent on food: $" + total1 +"\nSpent on clothes: $" + total2 +
+    "\n your collective total is: $" + total;
 }
