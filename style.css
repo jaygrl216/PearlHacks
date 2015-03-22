@@ -2,3 +2,13 @@
 	font-style: italic;
 	font-style: bold;
 }
+
+#box {
+	border-style: groove;
+	border-color: #000;
+	background-color: #C054FF;
+	font-family: Rockwell;
+	color:#FFF;
+	text-align: center;
+
+}
