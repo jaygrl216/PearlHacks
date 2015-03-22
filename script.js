@@ -7,7 +7,7 @@ var budget=0;
 
 function budgetAdd(){
 	budget = budget + parseInt(document.saver.budget.value);
-	document.getElementById("budget").innerHTML = "Your budget is $" + budget;
+	document.getElementById("budget").innerHTML = "Your budget is: $" + budget;
 	
 }
 
