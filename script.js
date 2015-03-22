@@ -28,6 +28,6 @@ function submit() {
 	total= total1 + total2 + total3;
 	var remain = budget - total;
     document.getElementById("data").innerHTML = "Spent on food: $" + total1 +"\nSpent on clothes: $" + total2 +
-    " Spent on Makeup: $" + total3 +"\n your collective total is: $" + total + " Remaining Budget: $" + remain;
+    "\nSpent on Makeup: $" + total3 +"\n Your collective total is: $" + total + " Remaining Budget: $" + remain;
 }
 
