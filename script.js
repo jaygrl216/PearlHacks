@@ -24,3 +24,8 @@ function submit() {
     document.getElementById("data").innerHTML = "Spent on food: $" + total1 +"\nSpent on clothes: $" + total2 +
     "\n your collective total is: $" + total;
 }
+
+function budget(){
+var budget = parseInt(document.saver.budget.value);
+document.getElementById("data").innerHTML = "This is your budget $" + budget;
+}

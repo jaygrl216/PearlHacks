@@ -47,3 +47,8 @@ form {
 table {
 	height:500px;
 }
+
+#data {
+	font-family: Rockwell;
+	font-size: 30px;
+}
