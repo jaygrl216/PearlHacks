@@ -1,11 +1,11 @@
 
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Saver App</title>
-		<script src="script.js"></script>
-		<link rel="stylesheet" type="text/css" href="style.css">
-	</head>
+<head>
+	<title>Saver App</title>
+	<script src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
 
 <body>
@@ -15,49 +15,55 @@
 		</div>
 
 		<table>
-			<tr>
-			<td>
-			<p id = "intro"> This app will allow YOU to be an independent woman and manage your own money. You can enter what you have spent and keep track of your budget. The more you save, the more fabulous you can be in the future!</p>
-			</td>
+			<tr id="introRow">
+				<td>
+					<p id = "intro"> This app will allow YOU to be an independent woman and manage your own money. You can enter what you have spent and keep track of your budget. The more you save, the more fabulous you can be in the future!</p>
+				</td>
 
 
-			<td>
-			<img src="http://emojipedia.org/wp-content/uploads/2013/08/137-information-desk-person.png" />
-			</td>
+				<td>
+					<img src="emoji.png" />
+				</td>
 			</tr>
-		
+
 			<tr>
-			<td id="form">
-			<div id="appbox">
 
-			<form name="saver">
-			<span class="header">Budget (Enter a Budget you want to stick to):</span><br>
-			<input type="text" name="budget" value="budget"><br>
-			
+				<td>
+					<div id="appbox">
 
-			<span class="header">Category:</span><br>
-			<input type="radio" name="category" value="food"> Food <br>
-			<input type="radio" name="category" value="clothes"> Clothes <br>
-			<input type="radio" name="category" value="makeup"> MakeUp <br><br>
-			<span class="header">Price:</span><br>
-			<input type="text" name="price" value="price"><br>
-			</form>
-			<br>
-			<button onclick="budgetAdd()">Enter Budget</button><br><br>
-			<br>
-			<button onclick="addTotals()">Enter</button>
-			<br>
-			<button onclick="submit()"> Click when all finished</button>
-			</div>
+						<form name="saver">
+							<span class="header">Budget (Enter a Budget you want to stick to):</span><br>
+							<input type="text" name="budget" value=""><br>
+
+
+							<span class="header">Category:</span><br>
+							<input type="radio" name="category" value="food"> Food <br>
+							<input type="radio" name="category" value="clothes"> Clothes <br>
+							<input type="radio" name="category" value="makeup"> MakeUp <br><br>
+							<span class="header">Price:</span><br>
+							<input type="text" name="price" value=""><br>
+						</form>
+						<br>
+						<button onclick="budgetAdd()">Enter Budget</button><br><br>
+						<br>
+						<button onclick="addTotals()">Enter</button>
+						<br>
+						<button onclick="submit()"> Click when all finished</button>
+
+					</div>
+				</td>
+
+		</div>
+		<td id = "report">
+			<p id="budget"></p>
+			<p id="food"></p>
+			<p id="clothes"></p>
+			<p id="makeup"></p>
+			<p id="all"></p>
 		</td>
-
+	</tr>
 	</div>
-	<td>
-	<p id="budget"></p>
-	<p id="data"></p>
-</td>
-</tr>
-	
-	</body>
+
+</body>
 </html>
 

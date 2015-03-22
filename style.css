@@ -18,17 +18,19 @@
 #intro {
 	font-family: Rockwell;
 	text-align: center;
+	font-size: 30px;
 }
 
 #appbox {
-	border-style: groove;
+	margin-left: auto;
+    margin-right: auto;
 }
 
 #page {
 	margin-left: auto;
     margin-right: auto;
     width: 90%;
-    background-color: #ded5e8;
+    background-color: #E6E6E6;
 }
 
 form {
@@ -41,6 +43,8 @@ form {
 }
 
 #form {
+	margin-left: auto;
+    margin-right: auto;
 	width: 50%;
 }
 
@@ -52,7 +56,14 @@ table {
 	font-family: Rockwell;
 	font-size: 30px;
 }
+
 #budget{
 	font-family: Rockwell;
 	font-size: 30px;	
 }
+
+#report {
+	font-family: Rockwell;
+	font-size: 30px;	
+}
+
