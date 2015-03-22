@@ -14,3 +14,12 @@
 
 
 }
+
+#intro {
+	font-family: Rockwell;
+	text-align: center;
+}
+
+#appbox {
+	border-style: groove;
+}
