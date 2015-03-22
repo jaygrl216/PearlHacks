@@ -13,10 +13,10 @@ function budgetAdd(){
 
 function addTotals() {
 	var x = parseInt(document.saver.price.value);
-	if(document.saver.category.value == "food"){
+	if(document.saver1.category.value == "food"){
 	total1 = total1 + x;
 	}
-	else if(document.saver.category.value=="clothes"){
+	else if(document.saver1.category.value=="clothes"){
 		total2 = total2 + x;
 	} else {
 		total3 = total3 + x;
@@ -32,4 +32,3 @@ function submit() {
     document.getElementById("makeup").innerHTML ="Spent on Makeup: $" + total3;
     document.getElementById("all").innerHTML ="Your collective total is: $" + total + " Remaining Budget: $" + remain;
 }
-
