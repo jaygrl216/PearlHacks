@@ -32,4 +32,6 @@ function submit() {
     document.getElementById("makeup").innerHTML ="Spent on Makeup: $" + total3;
     document.getElementById("all").innerHTML ="Your collective total is: $" + total;
     document.getElementById("r").innerHTML = "Remaining Budget: $" + remain;
+    if(budget<0){
+    	alert("Oops you went over budget!");
 }
