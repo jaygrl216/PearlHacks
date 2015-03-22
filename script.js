@@ -10,11 +10,14 @@ var price = 0;
 
 function addTotals() {
 	var x = parseInt(document.saver.price.value);
-	total = total + x;
+	if(document.saver.category.value == "food"){
+	total1 = total1 + x;
+	}
 
 }
 
 function submit() {
-    document.getElementById("data").innerHTML = "This is what you spent: $" + total 
+	total= total1 + total2 + total3;
+    document.getElementById("data").innerHTML = "This is what you spent on food: $" + total1
     + "\n your collective total is " + total2;
 }
