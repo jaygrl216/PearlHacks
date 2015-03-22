@@ -3,6 +3,7 @@ var total1=0;
 var total2=0;
 var total3=0;
 var budget=0;
+var remain = 0;
 
 
 function budgetAdd(){
@@ -25,10 +26,10 @@ function addTotals() {
 
 function submit() {
 	total= total1 + total2 + total3;
-	var remain = budget - total;
+	remain = budget - total;
     document.getElementById("food").innerHTML = "Spent on food: $" + total1;
     document.getElementById("clothes").innerHTML = "Spent on clothes: $" + total2;
     document.getElementById("makeup").innerHTML ="Spent on Makeup: $" + total3;
     document.getElementById("all").innerHTML ="Your collective total is: $" + total;
-    document.getElementById("r") = "Remaining Budget: $" + remain;
+    document.getElementById("r").innerHTML = "Remaining Budget: $" + remain;
 }
