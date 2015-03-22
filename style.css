@@ -63,7 +63,16 @@ table {
 }
 
 #report {
+	width: 50%;
 	font-family: Rockwell;
 	font-size: 30px;	
+}
+
+ul {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
 }
 
