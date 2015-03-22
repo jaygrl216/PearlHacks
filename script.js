@@ -9,7 +9,8 @@ var total4=0;
 var price = 0;
 
 function addTotals() {
-	total = total + document.getElementById("cost").value;
+	var x = parseInt(document.saver.price.value);
+	total = total + x;
 
 }
 
