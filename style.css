@@ -63,9 +63,22 @@ table {
 }
 
 #report {
+	width: 50%;
 	font-family: Rockwell;
 	font-size: 30px;	
 }
+<<<<<<< HEAD
 body{
 	background-color: #000;
 }
+=======
+
+ul {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+>>>>>>> origin/master

@@ -27,7 +27,9 @@ function addTotals() {
 function submit() {
 	total= total1 + total2 + total3;
 	var remain = budget - total;
-    document.getElementById("data").innerHTML = "Spent on food: $" + total1 +"\nSpent on clothes: $" + total2 +
-    "\nSpent on Makeup: $" + total3 +"\n Your collective total is: $" + total + " Remaining Budget: $" + remain;
+    document.getElementById("food").innerHTML = "Spent on food: $" + total1;
+    document.getElementById("clothes").innerHTML = "Spent on clothes: $" + total2;
+    document.getElementById("makeup").innerHTML ="Spent on Makeup: $" + total3;
+    document.getElementById("all").innerHTML ="Your collective total is: $" + total + " Remaining Budget: $" + remain;
 }
 
