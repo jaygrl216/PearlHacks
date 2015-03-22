@@ -1,4 +1,4 @@
 
 function submit() {
-    document.getElementById("demo").innerHTML = "Hello World";
+    console.log("This is what you spent: s");
 }
