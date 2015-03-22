@@ -1,4 +1,4 @@
 
 function submit() {
-    document.write('This is what you spent: ');
+    document.getElementById("data").innerHTML = "This is what you spent: ";
 }
