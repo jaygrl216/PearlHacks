@@ -1,4 +1,4 @@
 
 function submit() {
-    console.log("This is what you spent: s");
+    document.write('This is what you spent: ');
 }
