@@ -19,5 +19,5 @@ function addTotals() {
 function submit() {
 	total= total1 + total2 + total3;
     document.getElementById("data").innerHTML = "This is what you spent on food: $" + total1
-    + "\n your collective total is " + total2;
+    + "\n your collective total is: $" + total;
 }
