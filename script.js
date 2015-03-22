@@ -1,6 +1,6 @@
 var ans;
 var amount = 0;
-var menuhChoice;
+var menuChoice;
 var total = 0
 var total1=0;
 var total2=0;
