@@ -15,5 +15,6 @@ function addTotals() {
 }
 
 function submit() {
-    document.getElementById("data").innerHTML = "This is what you spent: $" + total;
+    document.getElementById("data").innerHTML = "This is what you spent: $" + total 
+    + "\n your collective total is " + total2;
 }

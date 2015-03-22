@@ -15,30 +15,41 @@
 		</div>
 
 		<table>
+			<tr>
 			<td>
 			<p id = "intro"> This app will allow YOU to be an independent woman and manage your own money. You can enter what you have spent and keep track of your budget. The more you save, the more fabulous you can be in the future!</p>
 			</td>
 
+
 			<td>
 			<img src="http://emojipedia.org/wp-content/uploads/2013/08/137-information-desk-person.png" />
-		</td>
-		</table>
+			</td>
+			</tr>
+		
+			<tr>
+			<td id="form">
+			<div id="appbox">
 
-		<div id="appbox">
 			<form name="saver">
-			Category:<br>
+			<span class="header">Category:</span><br>
 			<input type="radio" name="category" value="food"> Food <br>
 			<input type="radio" name="category" value="clothes"> Clothes <br>
-			<input type="radio" name="category" value="makeup"> MakeUp <br>
-			Price:<br>
+			<input type="radio" name="category" value="makeup"> MakeUp <br><br>
+			<span class="header">Price:</span><br>
 			<input type="text" name="price" value="price"><br>
 			</form>
-			<button onclick="addTotals()">Click me</button>
-			<button onclick="submit()"> Done </button>
-		</div>
+			<br>
+			<button onclick="addTotals()">Enter</button>
+			<br>
+			<button onclick="submit()"> Click when all finished</button>
+			</div>
+		</td>
 
 	</div>
+	<td>
 	<p id="data"></p>
+</td>
+</tr>
 	
 	</body>
 </html>

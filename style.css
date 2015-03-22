@@ -35,3 +35,15 @@ form {
 	font-family: Rockwell;
 	font-size: 20px;
 }
+
+.header{
+	text-decoration: underline;
+}
+
+#form {
+	width: 50%;
+}
+
+table {
+	height:500px;
+}
