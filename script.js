@@ -8,11 +8,10 @@ var budget=0;
 function budgetAdd(){
 	budget = budget + parseInt(document.saver.budget.value);
 	document.getElementById("budget").innerHTML = "Your budget is: $" + budget;
-	alert(budget);
 }
 
 function addTotals() {
-	var x = parseInt(document.saver.price.value);
+	var x = parseInt(document.saver1.price.value);
 	if(document.saver1.category.value == "food"){
 	total1 = total1 + x;
 	}
