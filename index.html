@@ -33,7 +33,7 @@
 			<form name="saver">
 			<span class="header">Budget (Enter a Budget you want to stick to):</span><br>
 			<input type="text" name="budget" value="budget"><br>
-			<button onclick="budget()">Enter Budget</button><br><br>
+			
 
 			<span class="header">Category:</span><br>
 			<input type="radio" name="category" value="food"> Food <br>
@@ -43,6 +43,8 @@
 			<input type="text" name="price" value="price"><br>
 			</form>
 			<br>
+			<button onclick="budgetAdd()">Enter Budget</button><br><br>
+			<br>
 			<button onclick="addTotals()">Enter</button>
 			<br>
 			<button onclick="submit()"> Click when all finished</button>
@@ -51,6 +53,7 @@
 
 	</div>
 	<td>
+	<p id="budget"></p>
 	<p id="data"></p>
 </td>
 </tr>

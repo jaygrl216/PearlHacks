@@ -5,8 +5,14 @@ var total = 0;
 var total1=0;
 var total2=0;
 var total3=0;
-var total4=0;
+var budget=0;
 var price = 0;
+
+function budgetAdd(){
+	budget = budget + parseInt(document.saver.budget.value);
+	document.getElementById("budget").innerHTML = "Your budget is $" + budget;
+	
+}
 
 function addTotals() {
 	var x = parseInt(document.saver.price.value);
@@ -25,7 +31,3 @@ function submit() {
     "\n your collective total is: $" + total;
 }
 
-function budget(){
-var budget = parseInt(document.saver.budget.value);
-document.getElementById("data").innerHTML = "This is your budget $" + budget;
-}
