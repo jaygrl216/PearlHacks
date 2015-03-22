@@ -1,12 +1,9 @@
-var ans;
-var amount = 0;
-var menuChoice;
 var total = 0;
 var total1=0;
 var total2=0;
 var total3=0;
 var budget=0;
-var price = 0;
+
 
 function budgetAdd(){
 	budget = budget + parseInt(document.saver.budget.value);
